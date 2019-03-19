@@ -47,6 +47,7 @@ public class VersionUtil {
         return judgeVersion(jcAndroidVersion, jcIosVersion, mvVersion, dealyVersion, req, COMPARE_TYPE_EQUAL_TO);
     }*/
 
+
     /**
      * 客户端APP版本是否大于等于给定版本
      *
@@ -57,6 +58,8 @@ public class VersionUtil {
      * @param req
      * @return
      */
+
+    
     public static boolean greaterThanOrEqualTo(String jcAndroidVersion, String jcIosVersion, String mvVersion, String dealyVersion, BaseRequestInfo req) {
         return judgeVersion(jcAndroidVersion, jcIosVersion, mvVersion, dealyVersion, req, COMPARE_TYPE_GREATER_THAN_OR_EQUAL_TO);
     }
